@@ -15,6 +15,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
+  <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -29,7 +30,7 @@
 <body>
 	<div class="box">
 		<div class="head" id="head">
-			<img class="logo" src="img/logo.png">
+			<img class="animate__pulse wow logo" src="img/logo.png">
 			<div class="menu">
 				<ul class="menu-main">
  					<li><a href="#section_1" class="current">Главная</a></li>
@@ -42,28 +43,28 @@
 		<div class="section_1" id="section_1">
 			
 			<img class="image_head" src="img/imagehead.jpg">
-			<h2 class="work_head">Imagenatlion at work</h2>
+			<h2 class="animate__bounce wow work_head">Imagenatlion at work</h2>
 			<h1 class="text_head"> Создание сайтов визиток под ключ</h1>
 			
 		</div>
 		<div class="section_2" id="section_2">
 			<h1 class="h1_section_2"> О нас</h1>
-			<img class="logo_section_2" src="img/logo.png">
-			<p align="center" class="text_section_2">Мы - небольшая группа интузиастов, создающих сайты визитки средней сложности более двух лет! Мы имеем множество выполненых работ и положительных отзывов от  наших клиентов.</p>
+			<img class="wow animate__animated animate__backInLeft logo_section_2" src="img/logo.png">
+			<p align="center" class="animate__fadeInBottomLeft wow text_section_2">Мы - небольшая группа интузиастов, создающих сайты визитки средней сложности более двух лет! Мы имеем множество выполненых работ и положительных отзывов от  наших клиентов.</p>
 			<h1 class="h1_2_section_2"> Что мы можем?</h1>
-			<img class="logo_2_section_2" src="img/logo.png">
-			<p align="center" class="text_2_section_2">Мы - проробатываем дизайн вашего будущего сайта. Мы - выполняем работы по вёрстке сайтов.  Мы - верстаем сайты с помощью языка HTML и JAVA script, а так же с помощью таблицы стилей.</p>
+			<img class=" wow animate__animated animate__backInRight logo_2_section_2" src="img/logo.png">
+			<p align="center" class="animate__fadeInBottomRight wow text_2_section_2">Мы - проробатываем дизайн вашего будущего сайта. Мы - выполняем работы по вёрстке сайтов.  Мы - верстаем сайты с помощью языка HTML и JAVA script, а так же с помощью таблицы стилей.</p>
 
 			<div class="img_kom_section_2">
-				<img data-wow-offset="120" id="img_1_kom_section_2" class="animate__animated animate__backInLeft" src="img/kom_1.png">
-				<img id="img_2_kom_section_2" class="animate__animated animate__backInDown" src="img/kom_2.png">
-				<img id="img_3_kom_section_2" class="animate__animated animate__backInRight" src="img/kom_3.png">
+				<img data-wow-offset="120" id="img_1_kom_section_2" class="wow animate__animated animate__backInLeft" src="img/kom_1.png">
+				<img id="img_2_kom_section_2" class="wow animate__animated animate__backInDown" src="img/kom_2.png">
+				<img id="img_3_kom_section_2" class=" wow animate__animated animate__backInRight" src="img/kom_3.png">
 			</div>
 		</div>
 		<div class="section_3" id="section_3">
 			<h1 class="h1_1_section_1"> Контакты</h1>
-			<img id="portfolio" class="logo_2_section_2" src="img/logo.png">
-			<p align="center" class="text_2_section_2">Пишите нам на почу. Мы вам ответим! Мы отправим Вам список вопросов. После получения ответа на них, мы можем приступать к прорабатыванию дизайнаи и макета. После этого, мы можем сказать ориентовочную цену сайта. После согласование деталей мы приступаем к вёрстке. Сайт будет здан после предоплаты размером в 50%. После Вашего принятия, вылаживаем сайт на хостинг (по надобности).</p>
+			<img id="portfolio" class="wow animate__animated animate__backInLeft logo_2_section_2" src="img/logo.png">
+			<p align="center" class="animate__fadeInBottomRight wow text_2_section_2">Пишите нам на почу. Мы вам ответим! Мы отправим Вам список вопросов. После получения ответа на них, мы можем приступать к прорабатыванию дизайнаи и макета. После этого, мы можем сказать ориентовочную цену сайта. После согласование деталей мы приступаем к вёрстке. Сайт будет здан после предоплаты размером в 50%. После Вашего принятия, вылаживаем сайт на хостинг (по надобности).</p>
 			<div class="email">
 				<img class="img_email" src="img/email.png">
 				<a href="https://mail.google.com/mail"><p class="p_email">arbita.production@gmail.com</p></a>
@@ -99,6 +100,9 @@
 		 
 	</div>
 
-
+	<script src="wow-animation/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
